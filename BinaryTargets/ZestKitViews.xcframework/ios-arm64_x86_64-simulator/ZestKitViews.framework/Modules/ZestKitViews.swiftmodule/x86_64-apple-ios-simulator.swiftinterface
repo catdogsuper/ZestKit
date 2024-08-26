@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZestKitViews
+import Swift
+import SwiftUI
+@_exported import ZestKitViews
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct LoadingView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s12ZestKitViews11LoadingViewV4bodyQrvp", 0) __
+}
+public struct LoadingViewModifier : SwiftUI.ViewModifier {
+  public let isLoading: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func body(content: ZestKitViews.LoadingViewModifier.Content) -> some SwiftUI.View
+  
+  public typealias Body = @_opaqueReturnTypeOf("$s12ZestKitViews19LoadingViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF", 0) __
+}
+extension SwiftUI.View {
+  public func loading(_ show: Swift.Bool) -> some SwiftUI.View
+  
+}
+

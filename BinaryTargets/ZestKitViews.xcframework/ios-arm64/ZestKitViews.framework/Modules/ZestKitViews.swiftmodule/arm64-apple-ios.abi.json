@@ -9,7 +9,7 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
-        "moduleName": "Views",
+        "moduleName": "ZestKitViews",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -39,9 +39,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5Views11LoadingViewV4bodyQrvp",
-            "mangledName": "$s5Views11LoadingViewV4bodyQrvp",
-            "moduleName": "Views",
+            "usr": "s:12ZestKitViews11LoadingViewV4bodyQrvp",
+            "mangledName": "$s12ZestKitViews11LoadingViewV4bodyQrvp",
+            "moduleName": "ZestKitViews",
             "declAttributes": [
               "Custom",
               "AccessControl"
@@ -67,18 +67,18 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Views11LoadingViewV4bodyQrvg",
-                "mangledName": "$s5Views11LoadingViewV4bodyQrvg",
-                "moduleName": "Views",
+                "usr": "s:12ZestKitViews11LoadingViewV4bodyQrvg",
+                "mangledName": "$s12ZestKitViews11LoadingViewV4bodyQrvg",
+                "moduleName": "ZestKitViews",
                 "accessorKind": "get"
               }
             ]
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5Views11LoadingViewV",
-        "mangledName": "$s5Views11LoadingViewV",
-        "moduleName": "Views",
+        "usr": "s:12ZestKitViews11LoadingViewV",
+        "mangledName": "$s12ZestKitViews11LoadingViewV",
+        "moduleName": "ZestKitViews",
         "declAttributes": [
           "AccessControl"
         ],
@@ -132,9 +132,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5Views19LoadingViewModifierV02isB0Sbvp",
-            "mangledName": "$s5Views19LoadingViewModifierV02isB0Sbvp",
-            "moduleName": "Views",
+            "usr": "s:12ZestKitViews19LoadingViewModifierV02isD0Sbvp",
+            "mangledName": "$s12ZestKitViews19LoadingViewModifierV02isD0Sbvp",
+            "moduleName": "ZestKitViews",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -155,9 +155,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5Views19LoadingViewModifierV02isB0Sbvg",
-                "mangledName": "$s5Views19LoadingViewModifierV02isB0Sbvg",
-                "moduleName": "Views",
+                "usr": "s:12ZestKitViews19LoadingViewModifierV02isD0Sbvg",
+                "mangledName": "$s12ZestKitViews19LoadingViewModifierV02isD0Sbvg",
+                "moduleName": "ZestKitViews",
                 "implicit": true,
                 "accessorKind": "get"
               }
@@ -184,22 +184,22 @@
               {
                 "kind": "TypeNominal",
                 "name": "_ViewModifier_Content",
-                "printedName": "SwiftUI._ViewModifier_Content<Views.LoadingViewModifier>",
+                "printedName": "SwiftUI._ViewModifier_Content<ZestKitViews.LoadingViewModifier>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LoadingViewModifier",
-                    "printedName": "Views.LoadingViewModifier",
-                    "usr": "s:5Views19LoadingViewModifierV"
+                    "printedName": "ZestKitViews.LoadingViewModifier",
+                    "usr": "s:12ZestKitViews19LoadingViewModifierV"
                   }
                 ],
                 "usr": "s:7SwiftUI21_ViewModifier_ContentV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5Views19LoadingViewModifierV4body7contentQr7SwiftUI01_cD8_ContentVyACG_tF",
-            "mangledName": "$s5Views19LoadingViewModifierV4body7contentQr7SwiftUI01_cD8_ContentVyACG_tF",
-            "moduleName": "Views",
+            "usr": "s:12ZestKitViews19LoadingViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF",
+            "mangledName": "$s12ZestKitViews19LoadingViewModifierV4body7contentQr7SwiftUI01_eF8_ContentVyACG_tF",
+            "moduleName": "ZestKitViews",
             "declAttributes": [
               "Custom",
               "AccessControl"
@@ -208,9 +208,9 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5Views19LoadingViewModifierV",
-        "mangledName": "$s5Views19LoadingViewModifierV",
-        "moduleName": "Views",
+        "usr": "s:12ZestKitViews19LoadingViewModifierV",
+        "mangledName": "$s12ZestKitViews19LoadingViewModifierV",
+        "moduleName": "ZestKitViews",
         "declAttributes": [
           "AccessControl"
         ],
@@ -277,9 +277,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7SwiftUI4ViewP5ViewsE7loadingyQrSbF",
-            "mangledName": "$s7SwiftUI4ViewP5ViewsE7loadingyQrSbF",
-            "moduleName": "Views",
+            "usr": "s:7SwiftUI4ViewP12ZestKitViewsE7loadingyQrSbF",
+            "mangledName": "$s7SwiftUI4ViewP12ZestKitViewsE7loadingyQrSbF",
+            "moduleName": "ZestKitViews",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self where Self : SwiftUI.View>",
             "isFromExtension": true,

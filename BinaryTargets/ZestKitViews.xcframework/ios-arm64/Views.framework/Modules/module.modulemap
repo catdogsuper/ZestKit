@@ -1,6 +1,0 @@
-framework module Views {
-  umbrella header "Views.h"
-  export *
-
-  module * { export * }
-}

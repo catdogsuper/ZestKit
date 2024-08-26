@@ -1,0 +1,6 @@
+framework module ZestKitViews {
+  umbrella header "ZestKitViews.h"
+  export *
+
+  module * { export * }
+}
