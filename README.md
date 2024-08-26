@@ -13,6 +13,13 @@ This is a multifunctional and stunning feature set for Swift and SwiftUI develop
 
 - **ZestKitQuickDatabase**
   A lightweight and easy-to-use database framework for local data storage. It provides simple APIs for CRUD operations, making data management intuitive and efficient.
+                                                        
+## Why Are Some Modules in Binary (xcframework) Closed Source?
+
+- Currently, this library is in the testing phase.
+- Some code is undergoing adjustments and improvements.
+- Please do not use it in production environments.
+- We will open source the code after the follow-up is completed.
 
 ## Installation
 
