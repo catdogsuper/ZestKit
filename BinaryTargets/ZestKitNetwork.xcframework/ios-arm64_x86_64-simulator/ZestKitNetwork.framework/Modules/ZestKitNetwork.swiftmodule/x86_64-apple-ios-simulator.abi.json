@@ -1,0 +1,885 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZestKitNetwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "ZestKitNetwork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Server",
+        "printedName": "Server",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV7baseURLSSvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV7baseURLSSvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7baseURLSSvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV7baseURLSSvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7baseURLSSvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV7baseURLSSvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7baseURLSSvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV7baseURLSSvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV4pathSSvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV4pathSSvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV4pathSSvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV4pathSSvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV4pathSSvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV4pathSSvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV4pathSSvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV4pathSSvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "usr": "s:9Alamofire10HTTPMethodV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Alamofire.HTTPMethod",
+                    "usr": "s:9Alamofire10HTTPMethodV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "Alamofire.HTTPMethod",
+                    "usr": "s:9Alamofire10HTTPMethodV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV6method9Alamofire10HTTPMethodVvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "encoding",
+            "printedName": "encoding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "any Alamofire.ParameterEncoding",
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParameterEncoding",
+                    "printedName": "any Alamofire.ParameterEncoding",
+                    "usr": "s:9Alamofire17ParameterEncodingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ParameterEncoding",
+                    "printedName": "any Alamofire.ParameterEncoding",
+                    "usr": "s:9Alamofire17ParameterEncodingP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV8encoding9Alamofire17ParameterEncoding_pvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV7headersSDySSypGSgvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV7headersSDySSypGSgvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7headersSDySSypGSgvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV7headersSDySSypGSgvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7headersSDySSypGSgvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV7headersSDySSypGSgvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV7headersSDySSypGSgvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV7headersSDySSypGSgvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV10parametersSDySSypGSgvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV10parametersSDySSypGSgvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV10parametersSDySSypGSgvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV10parametersSDySSypGSgvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV10parametersSDySSypGSgvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV10parametersSDySSypGSgvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV10parametersSDySSypGSgvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV10parametersSDySSypGSgvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeoutInterval",
+            "printedName": "timeoutInterval",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV15timeoutIntervalSdvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV15timeoutIntervalSdvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV15timeoutIntervalSdvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV15timeoutIntervalSdvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV15timeoutIntervalSdvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV15timeoutIntervalSdvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV15timeoutIntervalSdvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV15timeoutIntervalSdvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "waitsForConnectivity",
+            "printedName": "waitsForConnectivity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ZestKitNetwork6ServerV20waitsForConnectivitySbvp",
+            "mangledName": "$s14ZestKitNetwork6ServerV20waitsForConnectivitySbvp",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV20waitsForConnectivitySbvg",
+                "mangledName": "$s14ZestKitNetwork6ServerV20waitsForConnectivitySbvg",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV20waitsForConnectivitySbvs",
+                "mangledName": "$s14ZestKitNetwork6ServerV20waitsForConnectivitySbvs",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ZestKitNetwork6ServerV20waitsForConnectivitySbvM",
+                "mangledName": "$s14ZestKitNetwork6ServerV20waitsForConnectivitySbvM",
+                "moduleName": "ZestKitNetwork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ZestKitNetwork6ServerV",
+        "mangledName": "$s14ZestKitNetwork6ServerV",
+        "moduleName": "ZestKitNetwork",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/Aaslte\/ZestKit\/ZestKitNetwork\/ZestKitNetwork\/ZestKitNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aaslte\/ZestKit\/ZestKitNetwork\/ZestKitNetwork\/ZestKitNetwork.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Aaslte\/ZestKit\/ZestKitNetwork\/ZestKitNetwork\/ZestKitNetwork.swift",
+      "kind": "IntegerLiteral",
+      "offset": 479,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/Aaslte\/ZestKit\/ZestKitNetwork\/ZestKitNetwork\/ZestKitNetwork.swift",
+      "kind": "BooleanLiteral",
+      "offset": 526,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

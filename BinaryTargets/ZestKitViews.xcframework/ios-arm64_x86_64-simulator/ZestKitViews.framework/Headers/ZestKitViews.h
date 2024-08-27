@@ -2,6 +2,7 @@
 //  ZestKitViews.h
 //  ZestKitViews
 //
+//  Copyright © 2024 ZestKitViews. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

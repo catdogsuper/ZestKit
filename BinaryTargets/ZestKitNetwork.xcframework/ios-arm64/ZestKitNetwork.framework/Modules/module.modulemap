@@ -1,0 +1,6 @@
+framework module ZestKitNetwork {
+  umbrella header "ZestKitNetwork.h"
+  export *
+
+  module * { export * }
+}
