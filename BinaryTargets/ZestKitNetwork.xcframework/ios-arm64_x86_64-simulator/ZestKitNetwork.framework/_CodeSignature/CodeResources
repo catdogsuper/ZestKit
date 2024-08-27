@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RzEfo92VpEVS1UBq9ZDr+YPCehc=
+		knu3couS9/x3Sa5AfB/GJ7w+2lI=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DqwpPExbZ1qT2P7mZF3/mWrLRF4=
+		JHBRkpuYrR0wuGVDU8pZutUxkVQ=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DqwpPExbZ1qT2P7mZF3/mWrLRF4=
+		JHBRkpuYrR0wuGVDU8pZutUxkVQ=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sXuqdB0YiGe3YEzOoMsMtgUYpZQ=
+		dp/oHG6d12GnrVA0nVD0sAn0QPg=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RzEfo92VpEVS1UBq9ZDr+YPCehc=
+		knu3couS9/x3Sa5AfB/GJ7w+2lI=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HGPg/yJ5sxq2HTOdokWiDKFR1Fk=
+		q7yTp/MPJhAR3ulnFxt1ENl6pd0=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HGPg/yJ5sxq2HTOdokWiDKFR1Fk=
+		q7yTp/MPJhAR3ulnFxt1ENl6pd0=
 		</data>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Jmca/R8N081mco/W6NGZHUmK/84=
+		73Ijnbit7f/XH/lf0ZU66IQv8g4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhFNSCo1gF/WCbKaUMlhD/r5/+qXqqsAPyTLtoKboOw=
+			9CObmPUJ1J8SP/BAuyHMD/zeZ8Jqe1tdlg1HoRPDDwI=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZxdmxR7qamXejXGmzz8OEz1RsTuT6m6r5NfyYHB+uY=
+			3GKkznh5D3pADYWOIJtCOca5IsfMpITmPz14jtHHtR8=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nZxdmxR7qamXejXGmzz8OEz1RsTuT6m6r5NfyYHB+uY=
+			3GKkznh5D3pADYWOIJtCOca5IsfMpITmPz14jtHHtR8=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zj36NLK/3dcMk2yc3FoY9WBVv5h0iXTUtjnnqp9p2rM=
+			aAq4WgWFSNJZXxmGeO0plHFIlm8O5Xn3Jib9DA8RSY0=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QhFNSCo1gF/WCbKaUMlhD/r5/+qXqqsAPyTLtoKboOw=
+			9CObmPUJ1J8SP/BAuyHMD/zeZ8Jqe1tdlg1HoRPDDwI=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LFSQTyf0+0xdKqQVyADiqr1W6vaOgCpEocXCEpsqBfI=
+			w42Iv8/cs0ThxfId/6N82GebYLUnqeWesrYmJLJz60k=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LFSQTyf0+0xdKqQVyADiqr1W6vaOgCpEocXCEpsqBfI=
+			w42Iv8/cs0ThxfId/6N82GebYLUnqeWesrYmJLJz60k=
 			</data>
 		</dict>
 		<key>Modules/ZestKitNetwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4/HoFImuYZJTNlw4AaxecTXESTm5H1/mtlj6SE8dDms=
+			euP+os360b2X25qyy2B3dzTmcv8j9ZEDoTeVUdy+oGY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

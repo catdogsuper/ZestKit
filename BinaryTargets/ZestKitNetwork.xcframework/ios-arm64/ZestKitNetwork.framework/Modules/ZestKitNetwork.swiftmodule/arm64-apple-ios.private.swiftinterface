@@ -1,21 +1,52 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZestKitNetwork
-import Alamofire
 import Foundation
+import OSLog
 import Swift
 @_exported import ZestKitNetwork
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public struct Server {
-  public var baseURL: Swift.String
+  public var baseURL: ZestKitNetwork.Server.Domain
   public var path: Swift.String
-  public var method: Alamofire.HTTPMethod
-  public var encoding: any Alamofire.ParameterEncoding
+  public var method: ZestKitNetwork.Server.HTTPMethod
+  public var encoding: ZestKitNetwork.Server.ParameterEncoding
   public var headers: [Swift.String : Any]?
   public var parameters: [Swift.String : Any]?
   public var timeoutInterval: Swift.Double
   public var waitsForConnectivity: Swift.Bool
-  public init()
+  public init(baseURL: ZestKitNetwork.Server.Domain, path: Swift.String, method: ZestKitNetwork.Server.HTTPMethod = .get, encoding: ZestKitNetwork.Server.ParameterEncoding = .url, headers: [Swift.String : Any]? = nil, parameters: [Swift.String : Any]? = nil, timeoutInterval: Foundation.TimeInterval = 15, waitsForConnectivity: Swift.Bool = false)
+  public func test()
 }
+extension ZestKitNetwork.Server {
+  public enum Domain {
+    case develop(Foundation.URL)
+    case release(Foundation.URL)
+  }
+  public enum HTTPMethod {
+    case get
+    case post
+    case put
+    case delete
+    public static func == (a: ZestKitNetwork.Server.HTTPMethod, b: ZestKitNetwork.Server.HTTPMethod) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum ParameterEncoding {
+    case url
+    case json
+    public static func == (a: ZestKitNetwork.Server.ParameterEncoding, b: ZestKitNetwork.Server.ParameterEncoding) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension ZestKitNetwork.Server.HTTPMethod : Swift.Equatable {}
+extension ZestKitNetwork.Server.HTTPMethod : Swift.Hashable {}
+extension ZestKitNetwork.Server.ParameterEncoding : Swift.Equatable {}
+extension ZestKitNetwork.Server.ParameterEncoding : Swift.Hashable {}
