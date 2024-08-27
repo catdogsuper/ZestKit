@@ -839,6 +839,27 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Server",
+                "printedName": "ZestKitNetwork.Server",
+                "usr": "s:14ZestKitNetwork6ServerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14ZestKitNetwork6ServerVACycfc",
+            "mangledName": "$s14ZestKitNetwork6ServerVACycfc",
+            "moduleName": "ZestKitNetwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Struct",

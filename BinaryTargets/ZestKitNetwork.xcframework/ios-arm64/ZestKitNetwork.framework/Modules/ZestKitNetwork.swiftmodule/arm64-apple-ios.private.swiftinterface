@@ -17,4 +17,5 @@ public struct Server {
   public var parameters: [Swift.String : Any]?
   public var timeoutInterval: Swift.Double
   public var waitsForConnectivity: Swift.Bool
+  public init()
 }
