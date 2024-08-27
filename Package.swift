@@ -24,6 +24,7 @@ let package = Package(
     dependencies: [
         // Declare Alamofire as a dependency
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.9.1")),
+        .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", .upToNextMinor(from: "1.8.3")),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -34,6 +35,7 @@ let package = Package(
                 "ZestKitViews",
                 "ZestKitNetwork",
                 .product(name: "Alamofire", package: "Alamofire"),
+                .product(name: "CryptoSwift", package: "CryptoSwift"),
             ]),
         .binaryTarget(
             name: "ZestKitViews",
