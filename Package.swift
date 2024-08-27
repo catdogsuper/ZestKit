@@ -21,6 +21,10 @@ let package = Package(
             name: "ZestKitNetwork",
             targets: ["ZestKitNetwork"]),
     ],
+    dependencies: [
+        // Declare Alamofire as a dependency
+        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMinor(from: "5.9.1")),
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
