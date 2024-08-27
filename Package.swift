@@ -33,6 +33,7 @@ let package = Package(
             dependencies: [
                 "ZestKitViews",
                 "ZestKitNetwork",
+                .product(name: "Alamofire", package: "Alamofire"),
             ]),
         .binaryTarget(
             name: "ZestKitViews",
